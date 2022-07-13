@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    color: rgb(56, 56, 56);
+    font-weight: 300;
+}
+.bannar{
+    background-image: url(img/Bannar.jpg);
+    background-size: 100%;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(26, 26, 26, 0.849), rgba(31, 31, 31, 0))
+}
+.bannar-article{
+    padding: 10% 55% 10% 5%;
+    height: 100%;
+}
+.bannar-article h1{
+    font-size: 50px;
+    color: rgb(169, 237, 240);
+}
+.bannar-article p{
+    font-size: 200;
+    padding: 3% 25% 6% 0;
+    color: white;
+}
+.bannar-article a{
+    text-decoration: none;
+    color: white;
+    padding: 1% 3%;
+    background: linear-gradient(rgb(185, 16, 16),rgb(247, 88, 88));
+    border-radius: 6px;
+}
+.article{
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 7%;
+    margin-top: 2%;
+}
+.content{
+    width: 50%;
+    height: 50%;
+}
+#blog1{
+    padding: 1% 8% 1% 4%;
+}
+.blog{
+    height: 100%;
+    width: 50%;
+    padding: 1% 8% 1% 0;
+}
+.blog h1{
+    font-size: 40px;
+    padding: 0 0 1% 0;
+}
+.blog a{
+    text-decoration: none;
+    color: white;
+    padding: 1% 3%;
+    background: linear-gradient(rgb(185, 16, 16),rgb(247, 88, 88));
+    border-radius: 6px;
+}
+.donation{
+    padding-bottom: 5%;
+}
+.donation-header{
+    text-align: center;
+    padding: 2% 25%;
+}
+.donation-header h1{
+    font-size: 40px;
+    margin-bottom: 3%;
+}
+.direct-help{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 15%;
+    margin: 2% 0;
+}
+.help{
+    display: flex;
+    justify-content: left;
+    padding: 3%;
+    background: rgb(255, 243, 243);
+    border: 2px solid rgb(235, 235, 235);
+    border-radius: 10px;
+    margin-right: 3%;
+    min-width: 40%;
+    min-height: 180px;
+}
+.post{
+    padding: 0 5%;
+    text-align: left;
+}
+.post h3{
+    font-size: 2ex;
+    padding-bottom: 3%;
+}
+.photo-gallery{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 8% 5%;
+}
+.photo img{
+    width: 100%;
+    border-radius: 12px;
+}
+.zakat-fund{
+    width: 100%;
+}
+.zakat-header{
+    text-align: center;
+    padding-bottom: 3%;
+}
+.zakat-header h1{
+    font-size: 40px;
+    margin-bottom: 1%;
+}
+.zakat-header{
+    padding: 0 25%;
+}
+.fund{
+    display: flex;
+    justify-content: space-around;
+    padding: 6%;
+}
+.zakat-donate{
+    border: 1px solid rgb(224, 224, 224);
+    margin-right: 2%;
+    border-radius: 10px;
+}
+.zakat-donate img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.zakat{
+    padding: 7%;
+}
+.zakat h3{
+    padding-bottom: 2%;
+}
+.zakat p{
+    text-align: justify;
+}
+.zakat a{
+    font-size: 1.5ex;
+    font-weight: bold;
+    color: white;
+    padding:1% 2%;
+    text-decoration: none;
+    background: linear-gradient(rgb(185, 16, 16),rgb(247, 88, 88));
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    background-color: #0B0D17;
+    color: white;
+    font-family: 'Lobster', cursive;
+    padding: 3% 0;
+}
+footer h1{
+    font-family: 'Lobster', cursive;
+    color: rgb(175, 241, 41);
+    margin-bottom: 2%;
+}
+footer p{
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(175, 241, 41);
+}
