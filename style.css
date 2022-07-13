@@ -51,6 +51,7 @@ p{
 .content{
     width: 50%;
     height: 50%;
+    border-radius: 15px;
 }
 #blog1{
     padding: 1% 8% 1% 4%;
